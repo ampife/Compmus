@@ -8,4 +8,4 @@ I did not manage to do this yet but I would like to compare the two playlists ba
 
 I would like to make a graph which illustrates the amount of times the minor and major modes is used in each playlist. I did not manage to do this as I struggled with merging the information of playlists. 
 
-![alt text](https://raw.githubusercontent.com/ampife/Compmus/tree-save/path/to/img.png)
+![Image of graph1](https://octodex.github.com/images//Users/amedeo/Documents/School/Semester 2.2/Computational Musicology)
