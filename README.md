@@ -8,4 +8,6 @@ I did not manage to do this yet but I would like to compare the two playlists ba
 
 I would like to make a graph which illustrates the amount of times the minor and major modes is used in each playlist. I did not manage to do this as I struggled with merging the information of playlists. 
 
-![Image of graph1](https://octodex.github.com/images//Users/amedeo/Documents/School/Semester 2.2/Computational Musicology)
+![Mellow Playlist - Danceability against Tempo](https://user-images.githubusercontent.com/60702888/74107490-168dc980-4b71-11ea-9184-05266f744ddd.png)
+
+![Party Playlist - Danceability against Tempo](https://user-images.githubusercontent.com/60702888/74107491-17266000-4b71-11ea-849c-9e85cccbe6ea.png)
