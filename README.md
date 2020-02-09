@@ -9,7 +9,7 @@ Secondly, I wanted see whether the difference was due to the tempo of the tracks
 
 ### Graphs
 
-The two graphs  plot the danceability against the tempo. These graphs were the first indicators that suggested that danceability was determined through multiple aspects.
+The two graphs plot the danceability against the tempo. 
 
 ![Mellow Playlist - Danceability against Tempo](https://user-images.githubusercontent.com/60702888/74107490-168dc980-4b71-11ea-9184-05266f744ddd.png)
 
@@ -17,7 +17,5 @@ The two graphs  plot the danceability against the tempo. These graphs were the f
 
 
 ### Discussion
-I did not manage to do this yet but I would like to compare the two playlists based on mode. I wonder whether the mellow playlist contains a higher amount of minor songs compared to the party playlist.
-
-I would like to make a graph which illustrates the amount of times the minor and major modes is used in each playlist. I did not manage to do this as I struggled with merging the information of playlists. 
+I did not manage to do this yet but I would like to compare the two playlists based on mode. I wonder whether the mellow playlist contains a higher amount of minor songs compared to the party playlist. I would like to make a graph which illustrates the amount of times the minor and major modes is used in each playlist. I did not manage to do this as I struggled with merging the information of playlists. 
 
