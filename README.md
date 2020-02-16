@@ -19,3 +19,16 @@ The two graphs plot the danceability against the tempo.
 ### Discussion
 I did not manage to do this yet but I would like to compare the two playlists based on mode. I wonder whether the mellow playlist contains a higher amount of minor songs compared to the party playlist. I would like to make a graph which illustrates the amount of times the minor and major modes is used in each playlist. I did not manage to do this as I struggled with merging the information of playlists. 
 
+# Week 2 - Findings
+
+This week I dediced to analyse the factors that influence danceability. The first analyses I made in regarding danceability, tempo and energy. I tried to use the new graph functions provided to me by datacamp. The first graph showed that the danceability is as interlinked with tempo as I initially thought. This led me to analysing the mode. I wanted to know whether the danceability depended on the mode of the track (major or minor). This graph however, is still  not complete. 
+At the moment it does not properly show the relationship between mode and danceability. I'm not sure what graph I should use to show the relationship. 
+
+### Discussion
+
+For next week, I would like to dissect the aspects of the individual playlist more. Furthermore, one of the playlist has more songs than the other which obviously has influence on the results. However, even after I created a playlist with the same amount of songs, R would upload a playlist with more songs. This is an issue that I still have to resolve. 
+
+###Graph
+
+![Danceability, Tempo and Energy](Danceability, tempo and energy.png)
+![Danceability and mode ](mode and danceability.png)
