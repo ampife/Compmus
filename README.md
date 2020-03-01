@@ -39,11 +39,12 @@ In order to use the recently learned chromagraphs and self-similarity matrices I
 
 ###Graph
 
-![Chromogram - Freudian](Chromogram, Freudian.png)
-![Chromogram - Patsergedrag ](Chromogram, patsergedrag.png)
+![Chromogram, Freudian](Chromogram - Freudian.png)
+![Chromogram, Patsergedrag](Chromogram - patsergedrag.png)
 
-These chromograms  display the scales of the songs. The chromogram indicates that Patsergedrag is writen in c minor however due to the highlighted c and Eb. However, due to the highlighted A and B, it becomes unclear whether this is really the case. Freudian seems to be on Db minor however, half way through the song it modulates to C minor. This is clearly displayed in the chromogram with the C becoming more prominant after the G. 
+These chromograms display the scales of the songs. The chromogram indicates that Patsergedrag is writen in c minor however due to the highlighted c and Eb. However, due to the highlighted A and B, it becomes unclear whether this is really the case. Freudian seems to be on Db minor however, half way through the song it modulates to C minor. This is clearly displayed in the chromogram with the C becoming more prominant after the G. 
 
-![SSM (timbre) - Freudian ](SSM, Freudian.png)
+![SSM timbre, Freudian](SSM - Freudian.png)
 
 The SSM of Freudian is very intersting as there are clearly a few patterns which mark different stages in the song. The first pattern propagates through the graph until around 300. After this mark, the pattern is different that the previous one suggesting a clear  change in timbre. This is also clearly audible in the song 
+
