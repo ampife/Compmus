@@ -32,3 +32,13 @@ For next week, I would like to dissect the aspects of the individual playlist mo
 
 ![Danceability, Tempo and Energy](Danceability, tempo and energy.png)
 ![Danceability and mode ](mode and danceability.png)
+
+# Week 4 - Findings
+
+In order to use the recently learned chromagraphs and self-similarity matrices I decidde to chose a song from each playlist. I chose the lowest danceability song in the Mellow playlist and the highest danceability song in the Party playlist. 
+
+###Graph
+
+![Chromogram - Freudian](Chromogram - Freudian.png)
+![Chromogram - Patsergedrag ](Chromogram - patsergedrag.png)
+![SSM (timbre) - Freudian ](SSM - Freudian.png)
