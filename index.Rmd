@@ -23,7 +23,6 @@ library(compmus)
 
 ### The confusing tempograms of Patsergedrag and Freudian 
 
-I decided to keep researching the two songs Freudian and Patsergedrag. I used the tempograms to analyze the BPM of each song. SInce the two songs vart greatly in tempo, I was expecting a clear difference between the two tempograms. The tempo differences are definitely noticeable in graphs and the silence in Freudian is beautifully illustrated as well. Zooming in on the part after the silence however, the tempogram seems to fail. As with Patsergedrag's tempogram, it seems more constant, which was expected as the tempo is very regular. The estimated BPM's seem for both songs too high so I'm assumming that these are the tempo "overtones".
 
 ```{r}
 freudiantemp <- get_tidy_audio_analysis('4nESnAOALHmxg8UFCCtXhO')
@@ -46,7 +45,8 @@ patsergedragtemp %>%
   labs(x = 'Time (s)', y = 'Tempo (BPM)') +
   theme_classic() + ggtitle("Tempogram of Patsergedrag - Sevn Alias")
 ```
-
+***
+I decided to keep researching the two songs Freudian and Patsergedrag. I used the tempograms to analyze the BPM of each song. SInce the two songs vart greatly in tempo, I was expecting a clear difference between the two tempograms. The tempo differences are definitely noticeable in graphs and the silence in Freudian is beautifully illustrated as well. Zooming in on the part after the silence however, the tempogram seems to fail. As with Patsergedrag's tempogram, it seems more constant, which was expected as the tempo is very regular. The estimated BPM's seem for both songs too high so I'm assumming that these are the tempo "overtones".
 
 ```{r}
 circshift <- function(v, n) {if (n == 0) v else c(tail(v, n), head(v, -n))}
@@ -214,7 +214,6 @@ The SSM of Freudian is very intersting as there are clearly a few patterns which
 DandTParty <- 
     ggplot(MandP, aes(x = danceability, y = tempo, col = energy)) + geom_point() + facet_grid(.~playlist)
  
-    ggplotly(DandTParty)
     
 # plotting the daneabilty to the tempo of the individual playlists - with a histogram
 
