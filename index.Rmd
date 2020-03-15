@@ -21,6 +21,33 @@ library(compmus)
 
 ```
 
+### The confusing tempograms of Patsergedrag and Freudian 
+
+I decided to keep researching the two songs Freudian and Patsergedrag. I used the tempograms to analyze the BPM of each song. SInce the two songs vart greatly in tempo, I was expecting a clear difference between the two tempograms. The tempo differences are definitely noticeable in graphs and the silence in Freudian is beautifully illustrated as well. Zooming in on the part after the silence however, the tempogram seems to fail. As with Patsergedrag's tempogram, it seems more constant, which was expected as the tempo is very regular. The estimated BPM's seem for both songs too high so I'm assumming that these are the tempo "overtones".
+
+```{r}
+freudiantemp <- get_tidy_audio_analysis('4nESnAOALHmxg8UFCCtXhO')
+
+freudiantemp %>%
+  tempogram(window_size = 8, hop_size = 1, cyclic = FALSE) %>% 
+  ggplot(aes(x = time, y = bpm, fill = power)) + 
+  geom_raster() + 
+  scale_fill_viridis_c(guide = 'none') +
+  labs(x = 'Time (s)', y = 'Tempo (BPM)') +
+  theme_classic() + ggtitle("Tempogram of Freudian - Daniel Caesar")
+
+patsergedragtemp <- get_tidy_audio_analysis('0jSIwy9HPtm877CHIbJHTY')
+
+patsergedragtemp %>%
+  tempogram(window_size = 8, hop_size = 1, cyclic = FALSE) %>% 
+  ggplot(aes(x = time, y = bpm, fill = power)) + 
+  geom_raster() + 
+  scale_fill_viridis_c(guide = 'none') +
+  labs(x = 'Time (s)', y = 'Tempo (BPM)') +
+  theme_classic() + ggtitle("Tempogram of Patsergedrag - Sevn Alias")
+```
+
+
 ```{r}
 circshift <- function(v, n) {if (n == 0) v else c(tail(v, n), head(v, -n))}
 
