@@ -21,8 +21,24 @@ library(compmus)
 
 ```
 
-### The confusing tempograms of Patsergedrag and Freudian 
+### Training a classifier. 
 
+
+![Chromogram - Patsergedrag ](graph numbers.png)
+
+***
+This week I used the classifier on the corpus. The first thing I noticed was the numbers given to the features by the Coef method. Initially, i thought it was weird the Mellow playlist had a higher danceability and enegry, but as I started to scan through the numbers I noticed that the Party playlist had exactly the same numbers but postive instead of negative and vice versa. I don't know what the explaination for this could be but I was rather confused. 
+
+For the confusion matrix, I changed the feature selection by removing valence, duration, as I feel like that should have influence on whether a song is perceived as a party song or a mellow song. After doing this, the classifier seemed to do a good job in placing the songs into the right playlist. Furthermore, I also increased to fold validation to 10.
+
+          Truth
+Prediction Mellowpl Partypl
+  Mellowpl      116      28
+  Partypl        28     123
+  
+I used the graph in order to illustrate the difference in timbre between the two playlist. A notable difference is that the party playlist is more to the right, meaning that it is louder. This makes sense as party songs are usually made for clubs and have a stronger bass. 
+
+### The confusing tempograms of Patsergedrag and Freudian 
 
 ```{r}
 freudiantemp <- get_tidy_audio_analysis('4nESnAOALHmxg8UFCCtXhO')
@@ -45,6 +61,7 @@ patsergedragtemp %>%
   labs(x = 'Time (s)', y = 'Tempo (BPM)') +
   theme_classic() + ggtitle("Tempogram of Patsergedrag - Sevn Alias")
 ```
+
 ***
 I decided to keep researching the two songs Freudian and Patsergedrag. I used the tempograms to analyze the BPM of each song. SInce the two songs vart greatly in tempo, I was expecting a clear difference between the two tempograms. The tempo differences are definitely noticeable in graphs and the silence in Freudian is beautifully illustrated as well. Zooming in on the part after the silence however, the tempogram seems to fail. As with Patsergedrag's tempogram, it seems more constant, which was expected as the tempo is very regular. The estimated BPM's seem for both songs too high so I'm assumming that these are the tempo "overtones".
 
